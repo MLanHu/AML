@@ -1,6 +1,18 @@
 ## Introduction
 This is a pytorch implementation of binary matching case described in *'Adversarial-Metric Learning for Audio-Visual Cross-Modal Matching'*
 
+## Requirements
+python 3.6
+librosa 0.7.2
+numpy 1.19.0
+torch 1.4.0
+torchvision 0.5.0
+
+## Dataset
+The network are trained on images from the and VGGFace dataset, and audio segments from VoxCeleb1. The VGGFace can be download from [here](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/data/zippedFaces.tar.gz). The VoxCeleb1 can be downloaded from [here](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/).
+
+## Experimental Result
+
 ## Notice
 The implementation of metric learning methods are included in
 ```
